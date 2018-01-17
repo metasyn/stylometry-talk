@@ -10,12 +10,13 @@ January 18th 2018
 # Contents
 
 * Definition
-* Historical Methods
+* Historical Methods & Citations Galore
+* Hapax Legomena
 * The Queen Sues Everyone
-* Neural Networks
+* Adolescent Neural Networks
 * J.K. Rowling can't trick us 
 * Murder or Suicide!?
-* Bad Lord of the Rings references
+* Bad Lord of the Rings Analogies
 * Questions / wake up time
 
 ---
@@ -52,7 +53,7 @@ Wikipedia:
     * Unconscious aspects
 
 * Unconscious aspects are exposed
-    * Indepdently of the author’s will
+    * Independently of the author’s will
     * Cannot be consciously manipulated
 
 * Similar
@@ -70,7 +71,7 @@ Wikipedia:
 
 * Relative word length frequencies
 * The Characteristic Curves of Composition - Mendenhall
-* Shakespare vs. Marlowe
+* Shakespare, Marlowe
 
 ----
 
@@ -112,7 +113,6 @@ Wikipedia:
 * Relative function word frequencies, priors
 * Inference and Disputed Authorship: The Federalist Papers - Mosteller & Wallace
 * Madison vs Hamilton
-* Seminal
 
 ---
 
@@ -125,6 +125,7 @@ Wikipedia:
 ----
 
 ![](img/burrows.png)
+
 <small>
 Persuasion (Austen), The Awkward Age (James), Frederica (Heyer), Howards End (Forster)
 </small>
@@ -144,7 +145,9 @@ Persuasion (Austen), The Awkward Age (James), Frederica (Heyer), Howards End (Fo
 
 zero statistical rigor
 # TERRIBLE
-<small>shame shame shame</small>
+* also tried to use hapax legomena as a method
+* "not chill, bro" - ALL the other statisticians
+
 
 ----
 
@@ -160,7 +163,7 @@ zero statistical rigor
 
 * Neural Nets - Multilayer Perceptron
 * Neural Computation in Stylometry - Matthews & Merriam
-* Shakespeare v Fletcher, Marlowe
+* Shakespeare, Fletcher, Marlowe
 * Function word features
 * 5 inputs, 1 hidden layer, sigmoid activation
 
