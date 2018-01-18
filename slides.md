@@ -43,6 +43,7 @@ Wikipedia:
     * Plagiarism detection
     * Dissident detection
     * Identity fraud detection
+    * HR Violations
 
 ---
 
@@ -63,7 +64,18 @@ Wikipedia:
 
 ---
 
-# A History of Methods
+# Medley of Methods
+
+* 1887 - count them lengths
+* 1932 - wait there are constants
+* 1964 - function words are cool
+* 1987 - PCA on top of that makes pretty graphs
+* 1991 - a great tool for suing people
+* 1993 - baby nets
+* 1995 - constants?
+* 1997 - no constants!
+* 2005 - markedness
+* 2012 - trolling the NSA
 
 ---
 
@@ -140,6 +152,17 @@ Persuasion (Austen), The Awkward Age (James), Frederica (Heyer), Howards End (Fo
     * The Queen vs. Thomas McCrossen (Court of Appeal 1991) 
     * The Queen vs. Frank Beck (Leicester Crown Court 1992)
     * The Queen vs. Joseph Nelson-Wilson (London 1992)
+
+----
+
+>To decide whether the two charts "match" on a cusum plot, Morton advocates the use of a transparent overlay of the habit cusum graph so that it may be moved around with respect to the sentence-length cusum graph... Mort claims that this approach is easy for juries to understand...
+
+* Forensic Stylometry: A Review of the Cusum Controversy
+* Holmes 1995 
+
+----
+
+![](img/overhead.jpg) 
 
 ----
 
@@ -227,13 +250,38 @@ by Robert Galbraith... Or J.K. Rowling ¯\\\_(ツ)\_/¯
     * potential homicide
 * suicide notes found on computer
 
+
+----
+
+# 2005
+
+* Syntatic markedness + LDA
+    * average word length
+    * punctuation at end-of-clause points
+    * marked vs. unmarked
+        * claim 95% accuracy
 * "Who's At the Keyboard?" - Chaski 2002
 * International Journal of Digital Evidence
 
 ----
 
+## Markedness
+
+* the dead phoenix
+* the phoenix that is dead
+
+* phrases
+    * noun - head position
+    * verb - aspect / form
+    * adjective - predicative / attributive
+    * modifier - perdicate attachment
+    * preposition - recusive
+
+----
+
 # Guilty
 
+* syntatic results presented in court (in addition)
 * roomate arrested, charged, tried
     * first degree murder
 * pled not guilty
@@ -269,12 +317,41 @@ result:
 
 ---
 
+# 2008
+
+* Use all the features + ensemble SVMs
+* Writeprints: A Stylometric Approach to Identity-Level Identification and Similarity Detection in Cyberspace - Abbasi
+* Hundreds of features ngrams, bigrams, trigrams, function words
+    * KL-Decomposition on sliding windows 
+    * Preserve zero-usage features
+
+----
+
+![](img/writeprints.png)
+
+----
+
+![](img/system.png)
+
+---
+
 # Adversarial Stylometry
 
 * double edged sword
 * what about the
     * whistle blowers
     * oppressive regimes
+
+----
+
+# 2011
+
+* _Inside Wikileaks_ by Daniel Domscheitt-Berg
+* Former Wikileaks spokesman
+* Attends Adversarial stylometry presentation
+* Chaos Communication Congress  (26th)
+
+> “If someone had run WikiLeaks documents through such a program, he would have discovered that the same two people were behind all the various press releases, document summaries, and correspondence issued by the project. The official number of volunteers we had was also, to put it mildly, grotesquely exaggerated.”
 
 ---
 
@@ -283,7 +360,12 @@ result:
 Adversarial Stylometry: Circumventing Authorship Recognition
 to Preserve Privacy and Anonymity - Brennan & Greendstadt
 
-* methods
+* classification methods
+    * Kernel SVM
+    * Neural Nets
+    * Synonym feature vectors  + "basic 9"
+
+* obfuscation methods
     * obfuscation - ok
     * imitation - pretty good
     * cyclic translation - not so good
@@ -291,15 +373,39 @@ to Preserve Privacy and Anonymity - Brennan & Greendstadt
 * corpus made available, study replicated
 * YOU CAN STILL HIDE
 
----
+----
 
-## Adversarial Adversarial Stylometry
+## Synonym feature vectors
+
+![](img/synonyms.png)
+
+----
+
+## Results
+
+<img src="img/baseline.png" height=200px> 
+<img src="img/translation.png" height=200px> 
+
+<img src="img/obfuscation.png" height=200px> 
+<img src="img/imitation.png" height=200px> 
+
+----
+
+## Adversarial Adversarial Recursion 
 
 * but what about the terrorists
     * who used the adversarial technique
 
 * imposes limits on acceptable corpora
 
+* Anonymouth
+    * github.com/psal/anonymouth
+
 ---
 
 # Questions
+
+slides at github.com/metasyn/stylometry-talk
+
+xander@splunk.com
+
