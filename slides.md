@@ -274,7 +274,7 @@ by Robert Galbraith... Or J.K. Rowling ¯\\\_(ツ)\_/¯
     * noun - head position
     * verb - aspect / form
     * adjective - predicative / attributive
-    * modifier - perdicate attachment
+    * modifier - predicate attachment
     * preposition - recusive
 
 ----
